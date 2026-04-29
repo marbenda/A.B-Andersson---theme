@@ -1,0 +1,476 @@
+/*
+Theme Name: A.B. Andersson Redesign
+Author: Martin Benda
+Description: UX redesign a implementace webu - Bakalářská práce
+Version: 1.1
+*/
+
+/* na všech stránkách */
+:root {
+    --primary-color: #0e69a2;
+    --primary-dark: #00507f;
+    --primary-fixed-dim: #96cbff;
+    --gradient-start: #00507f;
+    --surface-bg: #f8f9ff;
+    --surface-low: #f2f3f9;
+    --surface-high: #e6e8ed;
+    --surface-highest: #e0e2e8;
+    --text-dark: #191c20;
+    --text-muted: #404750;
+    --outline-variant: rgba(192, 199, 209, 0.3);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-dark);
+    background-color: var(--surface-bg);
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .font-headline {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-primary-color { color: var(--primary-color) !important; }
+.bg-primary-color { background-color: var(--primary-color) !important; }
+.object-fit-cover { object-fit: cover; }
+.bg-cover { background-size: cover; }
+.bg-center { background-position: center; }
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+footer a:hover {
+    color: var(--primary-color) !important;
+}
+
+/* karty služby na hlavní stránce */
+.service-card {
+    display: flex;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-6px) scale(1.01);
+}
+
+.service-card:focus-visible {
+    outline: 3px solid var(--primary-fixed-dim);
+    outline-offset: 3px;
+}
+
+.service-card-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.service-card-light {
+    background-color: white;
+    color: var(--text-dark);
+}
+
+/* hlavní stránka */
+.hero-min-400 {
+    min-height: 400px;
+}
+
+.section-divider {
+    width: 80px;
+    height: 5px;
+}
+
+.icon-filled {
+    font-variation-settings: 'FILL' 1;
+}
+
+.tracking-wide {
+    letter-spacing: 0.08em;
+}
+
+.circle-45 {
+    width: 45px;
+    height: 45px;
+}
+
+.surface-low-bg {
+    background-color: var(--surface-low);
+}
+
+/* tlačítka*/
+.btn-primary-color {
+    background-color: var(--primary-color);
+    color: white !important;
+    border: none;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+
+.btn-primary-color:hover {
+    background-color: var(--primary-dark);
+}
+
+/*karty a boxy */
+.card-bento {
+    background: white;
+    border: 1px solid var(--outline-variant);
+    border-radius: 1rem;
+    padding: 2rem;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.card-bento:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+}
+
+.indicator-line {
+    width: 6px;
+    height: 32px;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.icon-square {
+    width: 48px;
+    height: 48px;
+    background-color: var(--primary-fixed-dim);
+    color: var(--primary-dark);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+/* fORMY */
+.input-group .form-control:focus {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+
+/* blog a search */
+.wp-pagination ul.page-numbers {
+    display: flex !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    justify-content: center;
+    gap: 10px;
+}
+
+.wp-pagination ul.page-numbers li a, 
+.wp-pagination ul.page-numbers li span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    color: var(--text-dark);
+    background-color: white;
+    border: 1px solid var(--outline-variant);
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.wp-pagination ul.page-numbers li span.current {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.wp-pagination ul.page-numbers li a:hover {
+    background-color: var(--surface-low);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.wp-pagination .material-symbols-outlined {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+/* hero sekce a sidebary*/
+
+.hero-services {
+    background-color: var(--primary-dark);
+    color: white;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-circle {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 70% 30%, rgba(255,255,255,0.1) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.sidebar-contact-card {
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.about-hero {
+    min-height: 600px;
+    background-color: #00507f;
+}
+
+.about-hero-overlay {
+    background: linear-gradient(135deg, #00507f 0%, rgba(0, 80, 127, 0.4) 100%);
+}
+
+
+/* tohle je na úvodní stránce, vyber ERP a implementaci */
+.hero-home {
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--primary-color) 100%);
+    position: relative;
+    z-index: 1;
+}
+
+.hero-home::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: 
+        linear-gradient(150deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.06) 50%, transparent 50.1%),
+        linear-gradient(-30deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.05) 30%, transparent 30.1%);
+    z-index: -1;
+}
+
+.grayscale-hover {
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+.grayscale-hover:hover { 
+    filter: grayscale(0%); 
+}
+
+/* Kontakt */
+.contact-highlight-box {
+    background-color: var(--surface-low);
+    border-left: 4px solid var(--primary-color);
+}
+
+.contact-qr-code {
+    width: 120px;
+    height: 120px;
+}
+
+.contact-note {
+    background-color: var(--surface-low);
+}
+
+/* reference */
+.client-tile {
+    background: white;
+    border: 1px solid var(--outline-variant);
+    border-radius: 12px;
+    padding: 1.25rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.client-tile:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.client-tile span {
+    color: var(--text-muted);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.custom-card {
+    background-color: var(--surface-container-low, #f2f3f9);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1) grayscale(100);
+}
+
+/* Tohle je na oNas */
+.circle-container {
+     width: 250px; 
+     height: 250px; 
+     position: relative; 
+    }
+.circle-bg {
+     position: absolute; 
+     inset: 0; background-color: rgba(14, 105, 162, 0.1); 
+     border-radius: 50%; transform: scale(1.1); 
+    }
+.circle-border {
+     position: absolute; 
+     inset: 0; border: 2px solid rgba(14, 105, 162, 0.2); 
+     border-radius: 50%; transform: scale(1.25); 
+    }
+
+.hover-card-special {
+    background-color: var(--surface-low);
+    transition: all 0.3s ease;
+}
+
+.hover-card-special:hover { 
+    background-color: var(--surface-highest); 
+}
+
+.custom-card-ref {
+    background-color: var(--surface-low);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+.text-primary-fixed-dim {
+    color: var(--primary-fixed-dim); 
+}
+
+.surface-low-box {
+    background-color: var(--surface-low); 
+}
+
+.surface-bg-box { background-color: var(--surface-bg); }
+
+/* Tohle je ve službách implementace,vyber */
+.analogy-quote-box {
+    background-color: var(--surface-low);
+    border-radius: 1rem;
+    padding: 3rem;
+    position: relative;
+    border-left: 8px solid var(--primary-color);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--surface-low);
+    color: var(--primary-color);
+}
+
+.ebook-3d-wrap { 
+    width: 240px; 
+    height: 320px;
+    transform: perspective(1000px) rotateY(-20deg) rotateX(5deg); 
+    transition: transform 0.5s ease;
+}
+
+.ebook-card {
+    height: 100%;
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-fixed-dim);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.3);
+}
+
+/* implementace */ 
+.quote-gray-box {
+    height: 1px;
+    width: 32px;
+    background: #717881;
+}
+
+.sticky-offset-100 {
+    top: 100px;
+    z-index: 10;
+}
+
+/*osobní údaje*/
+.hero-page-gdpr {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.blob-decoration {
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: white;
+    opacity: 0.1;
+    filter: blur(80px);
+    border-radius: 50%;
+}
+
+.rights-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rights-item {
+    background: white;
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--outline-variant);
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.rights-item span {
+    font-weight: 600;
+}
+
+/* header */
+.site-logo {
+    height: 50px;
+    width: auto;
+}
+
+/* footer */
+.site-logo-footer {
+    height: 40px;
+    width: auto;
+}
+
+/* category,kontakt */
+.page-shell {
+     padding-top: 128px; 
+     padding-bottom: 96px; 
+}
+
+/* error */
+.error-page-main {
+    min-height: 75vh;
+}
