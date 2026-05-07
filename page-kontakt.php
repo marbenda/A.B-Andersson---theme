@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="container py-5" class="page-shell">
+<main class="container py-5 page-shell">
     <div class="row g-5 align-items-start">
         <div class="col-12 col-lg-6">
             <div class="mb-4">
@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="p-4 rounded-3 d-flex align-items-center gap-4 mb-4" class="contact-highlight-box">
+            <div class="p-4 rounded-3 d-flex align-items-center gap-4 mb-4 contact-highlight-box">
                 <div class="bg-white p-2 rounded shadow-sm d-flex align-items-center justify-content-center flex-shrink-0">
                     <img
                         alt="QR Code"
@@ -57,7 +57,7 @@
 
                 <?php echo do_shortcode('[contact-form-7 id="489e706" title="Andersson contact form"]'); ?>
 
-                <div class="mt-4 p-3 rounded-3 border-start border-2 border-secondary" class="contact-note">
+                <div class="bg-light mt-4 p-3 rounded-3 border-start border-2 border-secondary" class="contact-note">
                     <p class="mb-0 text-muted fw-medium" style="font-size: 0.7rem;">
                         <strong class="text-dark">DŮLEŽITÉ:</strong>
                         Chcete-li nám nabídnout vaši službu nebo spolupráci, pošlete nám vaši nabídku v rozsahu maximálně 10 řádků na náš e-mail, do 2 týdnů vám odpovíme; každý příchozí e-mail je přečten, není nutné si telefonicky ověřovat, zda došel, zajímavou nabídku si určitě nenecháme ujít; nenabízejte nám vaše služby telefonem, recepční mají pokyn jakýkoliv podobný hovor okamžitě ukončit. V žádném případě nám nenabízejte žádné investiční příležitosti!

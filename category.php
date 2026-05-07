@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="container-xl py-5" class="page-shell">
+<main class="container-xl py-5 page-shell">
 
     <div class="d-flex align-items-center gap-3 mb-5">
         <h1 class="display-5 fw-bold m-0">

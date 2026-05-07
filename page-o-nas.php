@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section class="py-5 .surface-low-box">
+    <section class="py-5 surface-low-box">
         <div class="container py-lg-5">
             <div class="bg-white p-4 p-md-5 rounded-3 shadow-sm position-relative overflow-hidden">
                 <div class="row align-items-center g-4">

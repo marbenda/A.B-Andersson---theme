@@ -58,23 +58,23 @@
                 </h2>
 
                 <div class="d-grid gap-2">
-                    <div class="p-3 bg-light rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
+                    <div class="p-3 bg-white rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
                         <span class="material-symbols-outlined text-primary-color fs-5">check_circle</span>
                         <span class="text-dark">Právo na přístup k údajům</span>
                     </div>
-                    <div class="p-3 bg-light rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
+                    <div class="p-3 bg-white rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
                         <span class="material-symbols-outlined text-primary-color fs-5">check_circle</span>
                         <span class="text-dark">Právo na opravu a doplnění</span>
                     </div>
-                    <div class="p-3 bg-light rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
+                    <div class="p-3 bg-white rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
                         <span class="material-symbols-outlined text-primary-color fs-5">check_circle</span>
                         <span class="text-dark">Právo na omezení zpracování</span>
                     </div>
-                    <div class="p-3 bg-light rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
+                    <div class="p-3 bg-white rounded-3 d-flex align-items-center gap-3 border-start border-3 border-primary">
                         <span class="material-symbols-outlined text-primary-color fs-5">check_circle</span>
                         <span class="text-dark">Právo vznést námitku</span>
                     </div>
-                    <div class="p-3 bg-light rounded-3 d-flex align-items-center gap-3 border-start border-3 border-danger">
+                    <div class="p-3 bg-white rounded-3 d-flex align-items-center gap-3 border-start border-3 border-danger">
                         <span class="material-symbols-outlined text-danger fs-5">cancel</span>
                         <span class="text-danger fw-bold">Právo na výmaz (být zapomenut)</span>
                     </div>
@@ -82,8 +82,8 @@
 
                 <div class="mt-5 p-4 rounded-4 text-center border bg-white shadow-sm">
                     <p class="text-muted small mb-2">Pro uplatnění jakéhokoliv práva nás kontaktujte na:</p>
-                    <a href="mailto:privacy@architecterp.cz" class="text-primary-color fs-5 fw-bold text-decoration-none d-block d-sm-inline" style="word-break: break-all;">
-                        privacy@architecterp.cz
+                    <a href="mailto:info@abandersson.com" class="text-primary-color fs-5 fw-bold text-decoration-none d-block d-sm-inline" style="word-break: break-all;">
+                        info@abandersson.com
                     </a>
                 </div>
             </section>

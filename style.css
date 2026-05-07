@@ -13,7 +13,6 @@ Version: 1.1
     --gradient-start: #00507f;
     --surface-bg: #f8f9ff;
     --surface-low: #f2f3f9;
-    --surface-high: #e6e8ed;
     --surface-highest: #e0e2e8;
     --text-dark: #191c20;
     --text-muted: #404750;
@@ -34,8 +33,6 @@ h1, h2, h3, h4, h5, h6, .font-headline {
 .text-primary-color { color: var(--primary-color) !important; }
 .bg-primary-color { background-color: var(--primary-color) !important; }
 .object-fit-cover { object-fit: cover; }
-.bg-cover { background-size: cover; }
-.bg-center { background-position: center; }
 
 .material-symbols-outlined {
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
@@ -207,14 +204,6 @@ footer a:hover {
 
 /* hero sekce a sidebary*/
 
-.hero-services {
-    background-color: var(--primary-dark);
-    color: white;
-    padding: 80px 0;
-    position: relative;
-    overflow: hidden;
-}
-
 .overlay-circle {
     position: absolute;
     inset: 0;
@@ -309,7 +298,7 @@ footer a:hover {
 }
 
 .custom-card {
-    background-color: var(--surface-container-low, #f2f3f9);
+    background-color: var(--surface-low);
 }
 
 .carousel-control-prev,
@@ -407,49 +396,6 @@ footer a:hover {
 .sticky-offset-100 {
     top: 100px;
     z-index: 10;
-}
-
-/*osobní údaje*/
-.hero-page-gdpr {
-    padding-top: 8rem;
-    padding-bottom: 4rem;
-    background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
-    color: white;
-    position: relative;
-    overflow: hidden;
-}
-
-.blob-decoration {
-    position: absolute;
-    top: -100px;
-    right: -100px;
-    width: 400px;
-    height: 400px;
-    background: white;
-    opacity: 0.1;
-    filter: blur(80px);
-    border-radius: 50%;
-}
-
-.rights-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.rights-item {
-    background: white;
-    padding: 1.25rem 1.5rem;
-    border-radius: 12px;
-    border: 1px solid var(--outline-variant);
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease;
-    cursor: default;
-}
-
-.rights-item span {
-    font-weight: 600;
 }
 
 /* header */

@@ -77,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
         homeLink.classList.add('text-muted');
     }
 
+//pomoc AI
     function checkSection() {
         const top = servicesSection.offsetTop;
         const height = servicesSection.offsetHeight;
