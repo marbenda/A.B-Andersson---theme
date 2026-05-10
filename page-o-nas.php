@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-12 col-lg-8">
                     <h1 class="display-3 fw-bold font-headline mb-4" style="font-size: clamp(2.5rem, 6vw, 4.5rem);">
-                        A.B. Andersson : <br class="d-none d-md-block">
+                        A.B. Andersson: <br class="d-none d-md-block">
                         <span class="text-primary-fixed-dim">ERP Konzultanti</span>
                     </h1>
 
@@ -30,8 +30,8 @@
     <section class="py-5 bg-white">
         <div class="container py-lg-5">
             <div class="row g-5 align-items-start">
-                <div class="col-12 col-lg-4 sticky-lg-top" style="top: 100px;">
-                    <div class="p-4 custom-card-ref bg-light border-start border-4 border-primary shadow-sm">
+                <div class="col-12 col-lg-4">
+                    <div class="sticky-quote p-4 custom-card-ref bg-light border-start border-4 border-primary shadow-sm">
                         <p class="fst-italic mb-0 text-muted">
                             Vy vybíráte ERP systém jednou za 10 let, dodavatelé systémů je prodávají denně. Kdo je podle Vás ve výhodě?
                         </p>

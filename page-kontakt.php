@@ -43,7 +43,7 @@
             <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm border grayscale-hover">
                 <a href="https://www.google.com/maps/search/?api=1&query=Konviktská+24,+Praha+1" target="_blank" rel="noopener noreferrer" class="d-block w-100 h-100">
                     <img
-                        src="<?php echo get_template_directory_uri(); ?>/obrazky/Mapa-Konviktska.png"
+                        src="<?php echo get_template_directory_uri(); ?>/obrazky/Mapa-Konviktska(1).png"
                         alt="Mapa Konviktská 24"
                         class="w-100 h-100 object-fit-cover"
                     >

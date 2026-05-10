@@ -354,6 +354,11 @@ footer a:hover {
 
 .surface-bg-box { background-color: var(--surface-bg); }
 
+.sticky-quote {
+    top: 110px;
+    z-index: 1;
+}
+
 /* Tohle je ve službách implementace,vyber */
 .analogy-quote-box {
     background-color: var(--surface-low);

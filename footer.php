@@ -45,7 +45,7 @@
                 <p class="text-muted small mb-1">A.B. Andersson Czech s.r.o.</p>
                 <p class="text-muted small mb-1">Konviktská 24, Praha 1</p>
                 <p class="text-muted small mb-0">Česká republika</p>
-                <p class="text-muted small mt-3">© <?php echo date('Y'); ?> A.B. Andersson Czech s.r.o.</p>
+                <p class="text-muted small mt-3">&copy <?php echo date('Y'); ?> A.B. Andersson Czech s.r.o.</p>
             </div>
         </div>
     </div>

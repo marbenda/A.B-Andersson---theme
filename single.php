@@ -30,7 +30,7 @@
                     <div class="d-flex flex-wrap align-items-center text-muted small gap-3 gap-md-4">
                         <div class="d-flex align-items-center gap-2">
                             <span class="material-symbols-outlined fs-6">calendar_today</span>
-                            <?php echo get_the_date(); ?>
+                            <?php echo esc_html( get_the_date( 'j. n. Y' ) ); ?>
                         </div>
                         <div class="d-flex align-items-center gap-2">
                             <span class="material-symbols-outlined fs-6">person</span>
